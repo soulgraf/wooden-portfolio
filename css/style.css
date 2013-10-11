@@ -2,20 +2,20 @@
 	background-color: #2b1408;
 }
 .contenido{
-	margin: 0px auto;
-	width: 1000px;
-	height: 1280px;
 	background-image: url("../img/fondo.jpeg");
-	padding: 0px 70px 0px 70;
 	box-sizing:border-box;
+	height: 1280px;
+	margin: 0px auto;
+	padding: 0px 70px 0px 70;
+	width: 1000px;
 }
 .logotipo{	
 	float: left;
 	width: 300px;
 }
 .logotipo a img{
-	margin-top: 70px;
 	margin-left: -15px;
+	margin-top: 70px;
 }
 .nav{
 	float: right;
@@ -24,52 +24,51 @@
 	list-style-type: none;
 }
 .nav ul li{
-	margin-top: 100px;
-	margin-right: 13px;
 	float: left;
+	margin-right: 13px;
+	margin-top: 100px;
 }
 .nav ul li a{
 	color: #FFF;
-	text-decoration: none;
 	font-size: 24px;
+	text-decoration: none;
 }
 .cuerpo{
 	background-color: #e5e2e2;
-	`position: relative;
 }
 .cuerpo-header{
 	background-color: #431902;
-	padding-left: 45px;
-	padding-top: 25px;
-	padding-bottom: 20px;
-	padding-right: 40px;
 	color: #fff;
+	padding-bottom: 20px;
+	padding-left: 45px;
+	padding-right: 40px;
+	padding-top: 25px;
 	position: relative;
 	z-index: 10;
 }
 .icon-pack{
-	width: 280px;
 	display: inline-block;
+	width: 280px;
 }
 .icon-pack a{
-	color: #fff;
 	background-color: #321205;
-	text-decoration: none;
-	border: 1px #fff solid;
 	border-radius: 8px;
+	border: 1px #fff solid;
+	color: #fff;
 	padding: 5px;
+	text-decoration: none;
 }
 .icon-image{
 	display: inline-block;
 	position: absolute;
-	top: -20px;
 	right: 20px;
+	top: -20px;
 }
 .social{
-	width: 60px;
 	position: absolute;
 	right: 195px;
 	top: 215px;
+	width: 60px;
 	z-index: 1;
 }
 .social img{
