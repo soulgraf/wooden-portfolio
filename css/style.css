@@ -39,6 +39,7 @@
 }
 .cuerpo-header{
 	background-color: #431902;
+	border-radius: 10px 10px 0px 0px;
 	color: #fff;
 	padding-bottom: 20px;
 	padding-left: 45px;
@@ -46,7 +47,6 @@
 	padding-top: 25px;
 	position: relative;
 	z-index: 2;
-	border-radius: 10px 10px 0px 0px;
 }
 .icon-pack{
 	display: inline-block;
@@ -79,24 +79,24 @@
 	margin-bottom: 10px;
 }
 .info-bars{
-	background-image: linear-gradient(bottom, rgb(216,218,217) 1%, rgb(236,228,234) 51%);
-	background-image: -o-linear-gradient(bottom, rgb(216,218,217) 1%, rgb(236,228,234) 51%);
 	background-image: -moz-linear-gradient(bottom, rgb(216,218,217) 1%, rgb(236,228,234) 51%);
-	background-image: -webkit-linear-gradient(bottom, rgb(216,218,217) 1%, rgb(236,228,234) 51%);
 	background-image: -ms-linear-gradient(bottom, rgb(216,218,217) 1%, rgb(236,228,234) 51%);
-	padding: 25px;
+	background-image: -o-linear-gradient(bottom, rgb(216,218,217) 1%, rgb(236,228,234) 51%);
+	background-image: -webkit-linear-gradient(bottom, rgb(216,218,217) 1%, rgb(236,228,234) 51%);
+	background-image: linear-gradient(bottom, rgb(216,218,217) 1%, rgb(236,228,234) 51%);
 	box-sizing:border-box;
+	padding: 25px;
 }
 .info-icon{
 	float: left;
-	width: 8%;
 	margin: 70px 0px 0px;
+	width: 8%;
 }
 .row{
 	float: left;
-	width: 40%;
 	font-size: 14px;
 	padding-right: 15px;
+	width: 40%;
 }
 .row h1{
 	color: #545252;
@@ -113,10 +113,10 @@
 	padding: 0px  45px 60px;
 }
 .content h1{
-	font-size: 24px;
-	font-family: Calibri;
-	font-weight: bold;
 	color: #545252;
+	font-family: Calibri;
+	font-size: 24px;
+	font-weight: bold;
 }
 .content p{
 	font-size: 14px;
@@ -138,14 +138,9 @@
 	text-decoration: none;
 	width: 140px;
 }
-
-
-
-
 .footer p{
 	color: #382922; 
 	text-align: center;
-
 }
 .clear{
 	clear: both;
