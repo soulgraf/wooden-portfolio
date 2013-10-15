@@ -35,6 +35,7 @@
 }
 .cuerpo{
 	background-color: #e5e2e2;
+	border-radius: 10px;
 }
 .cuerpo-header{
 	background-color: #431902;
@@ -45,6 +46,7 @@
 	padding-top: 25px;
 	position: relative;
 	z-index: 2;
+	border-radius: 10px 10px 0px 0px;
 }
 .icon-pack{
 	display: inline-block;
@@ -87,25 +89,44 @@
 	padding: 25px;
 	box-sizing:border-box;
 }
-/*
-.row{
-	float: left;
-	width: 50%;
-	padding-bottom: 25px;
+.content{
+	padding: 0px  45px 60px;
 }
-.row h1{
-	color: #545252;
-	margin: 0px;
-}
-.row a{
-	color: #000;
-	text-decoration: none;
-	font-size: 22px;
-	font-family: "calibri";
+.content h1{
+	font-size: 24px;
+	font-family: Calibri;
 	font-weight: bold;
+	color: #545252;
 }
-.row-content{
-}*/
+.content p{
+	font-size: 14px;
+	color: #817f7f;
+}
+.image{
+	margin-bottom: 25px;
+}
+.content a{
+	background-color: #3d1d0c;
+	border-radius: 10px;
+	color: #b0a7a7;
+	display: block;
+	font-family: calibri;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0px auto;
+	padding: 10px 25px;
+	text-decoration: none;
+	width: 140px;
+}
+
+
+
+
+.footer p{
+	color: #382922; 
+	text-align: center;
+
+}
 .clear{
 	clear: both;
 }
